@@ -1,0 +1,43 @@
+
+:root {
+    --primary-color: #468cca;
+    --secondary-color: #1c6cae;
+    --font-color: #cbe7fd;
+    ;
+
+}
+.card{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    max-width: 53vb;
+    min-width: 53vb;
+    min-height: 30vh;
+    margin-top: 10px;
+    border:1px solid  var(--secondary-color);
+    margin: 1px;
+    color:var(--font-color);
+
+}
+.text-row{
+    padding: 6px;
+    border-bottom: 1px solid  var(--secondary-color);
+}
+.logo-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--secondary-color);
+    color:var(--font-color);
+
+}
+.footer{
+    text-align: center;
+    background-color: var(--secondary-color);
+    color:var(--font-color);
+    font-size: 20px;
+    font-weight: bold;
+}
